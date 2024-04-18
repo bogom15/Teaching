@@ -175,6 +175,16 @@ const updatedBook = {
 };
 updatedBook;
 
+//Arrow Functions
+
+// function getYear(str) {
+//   return str.split("-")[0];
+// }
+
+const getYear = (str) => str.split("-")[0];
+
+console.log(getYear(publicationDate));
+
 //template literals
 const summary = ` ${title} is a ${pages}-page long book, was written by ${author} and published in ${
   publicationDate.split("-")[0]
